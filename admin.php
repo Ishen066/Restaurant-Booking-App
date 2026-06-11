@@ -502,7 +502,9 @@ else
 ?>
 </td>
 
+<!-- Update Status -->
 <td>
+
 <div class="status-actions">
 
 <a href="update_status.php?id=<?php echo $row['id']; ?>&status=Confirmed"
@@ -516,8 +518,10 @@ class="cancel-btn">
 </a>
 
 </div>
+
 </td>
 
+<!-- Action -->
 <td class="action-cell">
 
 <a class="edit-btn"
@@ -526,11 +530,13 @@ href="edit_booking.php?id=<?php echo $row['id']; ?>">
 </a>
 
 <a class="delete-btn"
-href="delete_booking.php?id=<?php echo $row['id']; ?>">
+href="delete_booking.php?id=<?php echo $row['id']; ?>"
+onclick="return confirm('Are you sure?')">
 🗑 Delete
 </a>
 
 </td>
+
 </tr>
 
 <?php

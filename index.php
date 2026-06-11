@@ -18,6 +18,7 @@
     <a href="gallery.php">Gallery</a>
     <a href="reviews.php">Reviews</a>
     <a href="contact.php">Contact</a>
+    <a href="about.php">About Us</a>
     <a href="login.php">🔐 Admin Login</a>
 </div>
 
