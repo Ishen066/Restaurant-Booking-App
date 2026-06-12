@@ -462,6 +462,7 @@ td:last-child{
     <th>Date</th>
     <th>Time</th>
     <th>Guests</th>
+    <th>Table</th>
     <th>Status</th>
     <th>Update</th>
     <th>Action</th>
@@ -483,6 +484,7 @@ while($row = mysqli_fetch_assoc($result))
 <td><?php echo $row['booking_date']; ?></td>
 <td><?php echo $row['booking_time']; ?></td>
 <td><?php echo $row['guests']; ?></td>
+<td><?php echo $row['table_no']; ?></td>
 
 <!-- Status -->
 <td>

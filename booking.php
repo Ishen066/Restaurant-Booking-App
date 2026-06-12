@@ -49,11 +49,42 @@
         min="1"
         required>
 
-    <button type="submit">
+        
+
+<h3>Select Your Table</h3>
+
+<div class="table-layout">
+
+    <label>
+        <input type="radio" name="table_no" value="Table 1" required>
+        <div class="table-card">🍽 Table 1<br>2 Seats</div>
+    </label>
+
+    <label>
+        <input type="radio" name="table_no" value="Table 2">
+        <div class="table-card">🍽 Table 2<br>4 Seats</div>
+    </label>
+
+    <label>
+        <input type="radio" name="table_no" value="Table 3">
+        <div class="table-card">🍽 Table 3<br>6 Seats</div>
+    </label>
+
+    <label>
+        <input type="radio" name="table_no" value="Table 4">
+        <div class="table-card">🍽 Table 4<br>8 Seats</div>
+    </label>
+
+</div>
+
+<button type="submit">
         🍽 Book Now
     </button>
 
+
+    
 </form>
+
 
 <br>
 

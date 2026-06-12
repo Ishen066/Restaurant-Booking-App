@@ -269,3 +269,35 @@ footer{
 .feature-card:hover{
     transform:translateY(-5px);
 }
+
+.table-layout{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+    margin-top:20px;
+}
+
+.table-layout input{
+    display:none;
+}
+
+.table-card{
+    background:#f8f9fa;
+    padding:20px;
+    text-align:center;
+    border-radius:15px;
+    cursor:pointer;
+    border:3px solid transparent;
+    transition:0.3s;
+    font-weight:bold;
+}
+
+.table-card:hover{
+    transform:translateY(-5px);
+}
+
+.table-layout input:checked + .table-card{
+    background:#48bb78;
+    color:white;
+    border-color:#2f855a;
+}
